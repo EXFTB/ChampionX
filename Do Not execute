@@ -1,0 +1,212 @@
+
+--//start//--
+
+
+--//components//--
+
+
+--//autofarm//--
+
+_G.Click = true
+
+spawn(function()
+    while _G.Click == true do
+
+game:GetService("ReplicatedStorage").Events.Click3:FireServer()
+
+wait()
+
+    end
+end)
+
+
+--//end of autofarm//--
+
+
+--//Get all gamepasses//--
+
+_G.Gamepasses = true
+
+spawn(function()
+    if _G.Gamepasses == true then
+
+        game:GetService("Players").LocalPlayer.Passes.AutoClicker.Value = true
+        game:GetService("Players").LocalPlayer.Passes.AutoChestCollect.Value = true
+        game:GetService("Players").LocalPlayer.Passes.AutoCraft.Value = true
+        game:GetService("Players").LocalPlayer.Passes.UltraLuck.Value = true
+        game:GetService("Players").LocalPlayer.Passes.SuperLuck.Value = true
+        game:GetService("Players").LocalPlayer.Passes.MagicEggs.Value = true
+        game:GetService("Players").LocalPlayer.Passes.x2Gems.Value = true
+    end
+end)
+
+--//end of gamepasses//--
+
+--//Fake Stats//--
+
+_G.FakeStats = true
+
+spawn(function()
+    if _G.FakeStats == true then
+
+        game:GetService("Players").LocalPlayer.Stats.RobuxSpent.Value = 999999999
+        game:GetService("Players").LocalPlayer.Stats.TotalGems.Value = 999999999
+        game:GetService("Players").LocalPlayer.Stats.TotalClicks.Value = 999999999
+        game:GetService("Players").LocalPlayer.Stats.TimePlayed.Value = 999999999
+        game:GetService("Players").LocalPlayer.Stats.EggsOpened.Value = 999999999
+    end
+end)
+
+--//End of FakeStats//--
+
+--//Walkspeed//--
+_G.Walkspeed = true
+
+spawn (function()
+    if _G.Walkspeed == true then
+game:GetService("Players").LocalPlayer.Upgrades.WalkSpeed = 100
+
+end
+--//End of walkspeed//--
+
+--//World Boost//--
+
+_G.MaxWorldBoost = true
+
+spawn (function()
+    while _G.MaxWorldBoost == true do
+local args = {
+    [1] = "Galaxy Forest"
+}
+
+game:GetService("ReplicatedStorage").Events.WorldBoost:FireServer(unpack(args))
+
+wait(1.5)
+    end
+end)
+
+--//End of world boosts//--
+
+
+--//Auto Get Achievements//-- Work in progress
+
+_G.Achievements = true
+
+spawn (function()
+    if _G.Achievements == true then
+
+        local args = {
+            [1] = 1
+        
+        }
+        
+        game:GetService("ReplicatedStorage").Functions.Achievements:InvokeServer(unpack(args))
+        
+        local args = {
+            [1] = 2
+        
+        }
+        
+        game:GetService("ReplicatedStorage").Functions.Achievements:InvokeServer(unpack(args))
+        
+        local args = {
+            [1] = 3
+        
+        }
+        
+        game:GetService("ReplicatedStorage").Functions.Achievements:InvokeServer(unpack(args))
+        local args = {
+            [1] = 4
+        
+        }
+        
+        game:GetService("ReplicatedStorage").Functions.Achievements:InvokeServer(unpack(args))
+        
+        local args = {
+            [1] = 5
+        
+        }
+        
+        game:GetService("ReplicatedStorage").Functions.Achievements:InvokeServer(unpack(args))
+        
+        local args = {
+            [1] = 6
+        
+        }
+        
+        game:GetService("ReplicatedStorage").Functions.Achievements:InvokeServer(unpack(args))
+        local args = {
+            [1] = 7
+        
+        }
+        
+        game:GetService("ReplicatedStorage").Functions.Achievements:InvokeServer(unpack(args))
+        
+        local args = {
+            [1] = 8
+        
+        }
+        
+        game:GetService("ReplicatedStorage").Functions.Achievements:InvokeServer(unpack(args))
+        
+        local args = {
+            [1] = 9
+        
+        }
+        
+        game:GetService("ReplicatedStorage").Functions.Achievements:InvokeServer(unpack(args))
+        local args = {
+            [1] = 10
+        
+        }
+        
+        game:GetService("ReplicatedStorage").Functions.Achievements:InvokeServer(unpack(args))
+        
+        local args = {
+            [1] = 11
+        
+        }
+        
+        game:GetService("ReplicatedStorage").Functions.Achievements:InvokeServer(unpack(args))
+        
+        local args = {
+            [1] = 12
+        
+        }
+        
+        game:GetService("ReplicatedStorage").Functions.Achievements:InvokeServer(unpack(args))
+        local args = {
+            [1] = 13
+        
+        }
+        
+        game:GetService("ReplicatedStorage").Functions.Achievements:InvokeServer(unpack(args))
+        
+        local args = {
+            [1] = 14
+        
+        }
+        
+        game:GetService("ReplicatedStorage").Functions.Achievements:InvokeServer(unpack(args))
+        
+        local args = {
+            [1] = 15
+        
+        }
+        
+        game:GetService("ReplicatedStorage").Functions.Achievements:InvokeServer(unpack(args))
+        local args = {
+            [1] = 16
+        
+        }
+        
+        game:GetService("ReplicatedStorage").Functions.Achievements:InvokeServer(unpack(args))
+        
+        local args = {
+            [1] = 17
+        
+        }
+
+                      end
+                end)
+          end)
